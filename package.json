@@ -2,5 +2,12 @@
   "name": "merge-schemas-enum-repro",
   "version": "0.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.3.0",
+    "graphql-tools": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.0"
+  }
 }
