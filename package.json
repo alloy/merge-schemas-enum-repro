@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "@types/graphql": "^14.2.0"
+  },
+  "scripts": {
+    "works": "node index.js",
+    "breaks": "node index.js --repro"
   }
 }
